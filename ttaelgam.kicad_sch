@@ -4328,6 +4328,191 @@
 				)
 			)
 		)
+		(symbol "marbastlib-mx:MX_stab"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_stab"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cherry MX-style stabilizer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cherry mx stabilizer stab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_stab_0_1"
+				(rectangle
+					(start -5.08 -1.524)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.826 2.794)
+					(end -2.794 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -2.286)
+					(end -3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -1.778)
+					(end 4.064 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 1.27)
+					(end -3.556 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.524)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 2.794)
+					(end 4.826 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 1.27)
+					(end 4.064 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 -2.286)
+					(end 3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V1"
 			(power)
 			(pin_numbers hide)
@@ -7470,7 +7655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
 			(at 332.74 115.57 0)
 			(effects
 				(font
@@ -8889,6 +9074,70 @@
 		)
 	)
 	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 189.23 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23f2a4d0-44ac-4def-9b77-842e7f056e2a")
+		(property "Reference" "S81"
+			(at 195.58 191.6429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 195.58 194.1829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_2.75u"
+			(at 189.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 189.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/7fcc0384-3d4e-4f54-a3f2-0e39595a65a9"
+					(reference "S81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 303.53 184.15 90)
 		(unit 1)
@@ -8971,6 +9220,70 @@
 			(project "ttaelgam"
 				(path "/7fcc0384-3d4e-4f54-a3f2-0e39595a65a9"
 					(reference "D85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 347.98 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "252209ea-0691-4844-be82-987a8e645d12")
+		(property "Reference" "S76"
+			(at 354.33 156.0829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 354.33 158.6229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_2.75u"
+			(at 347.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 347.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ttaelgam"
+				(path "/7fcc0384-3d4e-4f54-a3f2-0e39595a65a9"
+					(reference "S76")
 					(unit 1)
 				)
 			)
@@ -15671,7 +15984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
 			(at 158.75 179.07 0)
 			(effects
 				(font
@@ -18087,6 +18400,70 @@
 		)
 	)
 	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 321.31 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c0e54c1-0cc8-49bf-b11d-ceb6638c63a9")
+		(property "Reference" "S30"
+			(at 327.66 92.5829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 327.66 95.1229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_2u"
+			(at 321.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 321.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ttaelgam"
+				(path "/7fcc0384-3d4e-4f54-a3f2-0e39595a65a9"
+					(reference "S30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 133.35 63.5 0)
 		(unit 1)
@@ -20096,6 +20473,70 @@
 		)
 	)
 	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 101.6 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7dfc646-ae16-423e-b581-b88130d5ac6d")
+		(property "Reference" "S64"
+			(at 107.95 159.8929 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 107.95 162.4329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_2.25u"
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ttaelgam"
+				(path "/7fcc0384-3d4e-4f54-a3f2-0e39595a65a9"
+					(reference "S64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 38.1 91.44 180)
 		(unit 1)
@@ -20188,7 +20629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
 			(at 115.57 115.57 0)
 			(effects
 				(font
@@ -21321,6 +21762,70 @@
 		)
 	)
 	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 350.52 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca1bbfea-91a9-487f-b4b5-915016311d5c")
+		(property "Reference" "S63"
+			(at 356.87 134.4929 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 356.87 137.0329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_2.25u"
+			(at 350.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 350.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ttaelgam"
+				(path "/7fcc0384-3d4e-4f54-a3f2-0e39595a65a9"
+					(reference "S63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 266.7 179.07 0)
 		(unit 1)
@@ -21346,7 +21851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
 			(at 266.7 179.07 0)
 			(effects
 				(font
@@ -22330,7 +22835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.75u_STP_1.25"
 			(at 115.57 135.89 0)
 			(effects
 				(font
@@ -22954,7 +23459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
 			(at 137.16 179.07 0)
 			(effects
 				(font
@@ -23685,7 +24190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
 			(at 115.57 179.07 0)
 			(effects
 				(font
@@ -24466,6 +24971,70 @@
 			(project ""
 				(path "/7fcc0384-3d4e-4f54-a3f2-0e39595a65a9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 242.57 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a01d26-10af-43f9-bab1-e28b80ed0b8d")
+		(property "Reference" "S82"
+			(at 248.92 192.9129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 248.92 195.4529 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_3u"
+			(at 242.57 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 242.57 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ttaelgam"
+				(path "/7fcc0384-3d4e-4f54-a3f2-0e39595a65a9"
+					(reference "S82")
 					(unit 1)
 				)
 			)
