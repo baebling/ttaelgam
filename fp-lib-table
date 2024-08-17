@@ -4,4 +4,5 @@
   (lib (name "Schematic Library")(type "KiCad")(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library")(options "")(descr ""))
   (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/footprints/marbastlib-mx.pretty")(options "")(descr ""))
   (lib (name "marbastlib-xp-mx")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/footprints/marbastlib-xp-mx.pretty")(options "")(descr ""))
+  (lib (name "ul_781710002")(type "KiCad")(uri "C:/Users/bae/Downloads/ul_781710002/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
